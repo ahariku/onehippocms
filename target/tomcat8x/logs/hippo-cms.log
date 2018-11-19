@@ -1,0 +1,76 @@
+19.11.2018 13:41:53 WARN  localhost-startStop-1 [ConfigurationContentService.warnForDuplicateOrderBefores:241] Following node(s) reference the same node multiple times in order before:
+    /content/documents/myhippoproject/events in myhippoproject/myhippoproject/myhippoproject-repository-data-application [content: content/documents/myhippoproject/events.yaml], 
+    /content/documents/myhippoproject/faq in myhippoproject/myhippoproject/myhippoproject-repository-data-application [content: content/documents/myhippoproject/faq.yaml], 
+    /content/documents/myhippoproject/news in myhippoproject/myhippoproject/myhippoproject-repository-data-application [content: content/documents/myhippoproject/news.yaml]
+19.11.2018 13:41:53 WARN  localhost-startStop-1 [ConfigurationContentService.warnForDuplicateOrderBefores:241] Following node(s) reference the same node multiple times in order before:
+    /hst:hst/hst:configurations/myhippoproject/hst:workspace/hst:sitemenus/main/events in myhippoproject/myhippoproject/myhippoproject-repository-data-application [content: hst/configurations/myhippoproject/workspace/sitemenus/main/events.yaml], 
+    /hst:hst/hst:configurations/myhippoproject/hst:workspace/hst:sitemenus/main/faq in myhippoproject/myhippoproject/myhippoproject-repository-data-application [content: hst/configurations/myhippoproject/workspace/sitemenus/main/faq.yaml], 
+    /hst:hst/hst:configurations/myhippoproject/hst:workspace/hst:sitemenus/main/news in myhippoproject/myhippoproject/myhippoproject-repository-data-application [content: hst/configurations/myhippoproject/workspace/sitemenus/main/news.yaml]
+19.11.2018 13:47:03 WARN  http-nio-8080-exec-10 [FolderTreePlugin.<init>:90] The configured path '/content/taxonomies' does not exist. Please check the configuration
+19.11.2018 13:53:03 WARN  http-nio-8080-exec-4 [FolderTreePlugin.<init>:90] The configured path '/content/taxonomies' does not exist. Please check the configuration
+19.11.2018 14:43:33 WARN  Thread-26 [RestProxyServicesManager$2.run:149] Site for contextPath /site is not live. Re-checking in 60171 milliseconds. Cause: javax.ws.rs.InternalServerErrorException: HTTP 500 Internal Server Error
+19.11.2018 14:43:38 WARN  http-nio-8080-exec-1 [FolderTreePlugin.<init>:90] The configured path '/content/taxonomies' does not exist. Please check the configuration
+19.11.2018 14:43:44 ERROR http-nio-8080-exec-2 [PluginFactory.createPlugin:87] java.lang.IllegalStateException: Unknown document url service 'live.site.document.url.service' configured for the website actions plugin. Please set the configuration property 'document.url.service.id'
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_151]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_151]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_151]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_151]
+	at org.hippoecm.frontend.plugin.impl.PluginFactory.createPlugin(PluginFactory.java:69) [hippo-cms-engine-5.5.0.jar:5.5.0]
+	at org.hippoecm.frontend.plugin.impl.PluginManager.start(PluginManager.java:84) [hippo-cms-engine-5.5.0.jar:5.5.0]
+	at org.hippoecm.frontend.plugin.impl.PluginContext.start(PluginContext.java:372) [hippo-cms-engine-5.5.0.jar:5.5.0]
+	at org.hippoecm.frontend.plugin.impl.ClusterControl.start(ClusterControl.java:125) [hippo-cms-engine-5.5.0.jar:5.5.0]
+	at org.hippoecm.addon.workflow.PluginController.startRenderer(PluginController.java:116) [hippo-cms-workflowmenu-5.5.0.jar:5.5.0]
+	at org.hippoecm.addon.workflow.AbstractWorkflowManagerPlugin.createPluginForWorkflow(AbstractWorkflowManagerPlugin.java:277) [hippo-cms-workflowmenu-5.5.0.jar:5.5.0]
+	at org.hippoecm.addon.workflow.AbstractWorkflowManagerPlugin.buildPanelsForCategory(AbstractWorkflowManagerPlugin.java:252) [hippo-cms-workflowmenu-5.5.0.jar:5.5.0]
+	at org.hippoecm.addon.workflow.AbstractWorkflowManagerPlugin.buildPanelsForCategories(AbstractWorkflowManagerPlugin.java:227) [hippo-cms-workflowmenu-5.5.0.jar:5.5.0]
+	at org.hippoecm.addon.workflow.AbstractWorkflowManagerPlugin.buildMenu(AbstractWorkflowManagerPlugin.java:159) [hippo-cms-workflowmenu-5.5.0.jar:5.5.0]
+	at org.hippoecm.addon.workflow.DocumentWorkflowManagerPlugin.render(DocumentWorkflowManagerPlugin.java:100) [hippo-cms-workflowmenu-5.5.0.jar:5.5.0]
+	at org.hippoecm.frontend.service.render.AbstractRenderService.render(AbstractRenderService.java:418) [hippo-cms-api-5.5.0.jar:5.5.0]
+	at org.hippoecm.frontend.service.render.RenderPlugin.render(RenderPlugin.java:122) [hippo-cms-api-5.5.0.jar:5.5.0]
+	at org.hippoecm.frontend.plugins.standards.perspective.Perspective.render(Perspective.java:199) [hippo-cms-api-5.5.0.jar:5.5.0]
+	at org.hippoecm.frontend.service.render.AbstractRenderService.render(AbstractRenderService.java:418) [hippo-cms-api-5.5.0.jar:5.5.0]
+	at org.hippoecm.frontend.editor.AbstractCmsEditor$EditorWrapper.render(AbstractCmsEditor.java:101) [hippo-cms-api-5.5.0.jar:5.5.0]
+	at org.hippoecm.frontend.plugins.standards.tabs.TabsPlugin.render(TabsPlugin.java:203) [hippo-cms-api-5.5.0.jar:5.5.0]
+	at org.hippoecm.frontend.service.render.AbstractRenderService.render(AbstractRenderService.java:418) [hippo-cms-api-5.5.0.jar:5.5.0]
+	at org.hippoecm.frontend.service.render.RenderPlugin.render(RenderPlugin.java:122) [hippo-cms-api-5.5.0.jar:5.5.0]
+	at org.hippoecm.frontend.plugins.standards.perspective.Perspective.render(Perspective.java:199) [hippo-cms-api-5.5.0.jar:5.5.0]
+	at org.hippoecm.frontend.plugins.cms.browse.BrowserPerspective.render(BrowserPerspective.java:169) [hippo-cms-perspectives-5.5.0.jar:5.5.0]
+	at org.hippoecm.frontend.plugins.standards.tabs.TabsPlugin.render(TabsPlugin.java:203) [hippo-cms-api-5.5.0.jar:5.5.0]
+	at org.hippoecm.frontend.plugins.cms.root.RootPlugin.render(RootPlugin.java:225) [hippo-cms-perspectives-5.5.0.jar:5.5.0]
+	at org.hippoecm.frontend.PluginPage.render(PluginPage.java:295) [hippo-cms-engine-5.5.0.jar:5.5.0]
+	at org.hippoecm.frontend.PluginRequestTarget.respond(PluginRequestTarget.java:148) [hippo-cms-api-5.5.0.jar:5.5.0]
+	at org.apache.wicket.request.cycle.RequestCycle$HandlerExecutor.respond(RequestCycle.java:890) [wicket-core-6.29.0.jar:6.29.0]
+	at org.apache.wicket.request.RequestHandlerStack.execute(RequestHandlerStack.java:64) [wicket-request-6.29.0.jar:6.29.0]
+	at org.apache.wicket.request.RequestHandlerStack.execute(RequestHandlerStack.java:97) [wicket-request-6.29.0.jar:6.29.0]
+	at org.apache.wicket.request.cycle.RequestCycle.execute(RequestCycle.java:261) [wicket-core-6.29.0.jar:6.29.0]
+	at org.apache.wicket.request.cycle.RequestCycle.processRequest(RequestCycle.java:218) [wicket-core-6.29.0.jar:6.29.0]
+	at org.apache.wicket.request.cycle.RequestCycle.processRequestAndDetach(RequestCycle.java:289) [wicket-core-6.29.0.jar:6.29.0]
+	at org.apache.wicket.protocol.http.WicketFilter.processRequestCycle(WicketFilter.java:259) [wicket-core-6.29.0.jar:6.29.0]
+	at org.apache.wicket.protocol.http.WicketFilter.processRequest(WicketFilter.java:201) [wicket-core-6.29.0.jar:6.29.0]
+	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:282) [wicket-core-6.29.0.jar:6.29.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [catalina.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:8.5.31]
+	at org.hippoecm.frontend.plugins.login.ConcurrentLoginFilter.doFilter(ConcurrentLoginFilter.java:54) [hippo-cms-engine-5.5.0.jar:5.5.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [catalina.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:8.5.31]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.31]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:8.5.31]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496) [catalina.jar:8.5.31]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.31]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [catalina.jar:8.5.31]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650) [catalina.jar:8.5.31]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.31]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [catalina.jar:8.5.31]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803) [tomcat-coyote.jar:8.5.31]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.31]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790) [tomcat-coyote.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468) [tomcat-coyote.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.31]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.31]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+Caused by: java.lang.IllegalStateException: Unknown document url service 'live.site.document.url.service' configured for the website actions plugin. Please set the configuration property 'document.url.service.id'
+	at org.onehippo.cms7.channelmanager.plugins.social.SocialSharingPlugin.<init>(SocialSharingPlugin.java:66) ~[hippo-addon-channel-manager-frontend-5.5.0.jar:5.5.0]
+	... 59 more

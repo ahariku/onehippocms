@@ -1,0 +1,27 @@
+19-Nov-2018 13:41:31.371 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ahariku/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Nov-2018 13:41:31.496 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 13:41:31.518 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2018 13:41:31.530 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 13:41:31.531 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2018 13:41:31.532 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 501 ms
+19-Nov-2018 13:41:31.570 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2018 13:41:31.570 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.31
+19-Nov-2018 13:41:31.595 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/ahariku/Documents/NextGen/oneHippo/myhippoproject/target/tomcat8x/webapps/cargocpc.war]
+19-Nov-2018 13:41:31.907 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/ahariku/Documents/NextGen/oneHippo/myhippoproject/target/tomcat8x/webapps/cargocpc.war] has finished in [312] ms
+19-Nov-2018 13:41:31.908 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/ahariku/Documents/NextGen/oneHippo/myhippoproject/target/tomcat8x/webapps/cms.war]
+19-Nov-2018 13:41:58.976 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/ahariku/Documents/NextGen/oneHippo/myhippoproject/target/tomcat8x/webapps/cms.war] has finished in [27,068] ms
+19-Nov-2018 13:41:58.977 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/ahariku/Documents/NextGen/oneHippo/myhippoproject/target/tomcat8x/webapps/essentials.war]
+19-Nov-2018 13:42:04.604 INFO [localhost-startStop-1] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /
+19-Nov-2018 13:42:05.042 INFO [localhost-startStop-1] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /system
+19-Nov-2018 13:42:05.052 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/ahariku/Documents/NextGen/oneHippo/myhippoproject/target/tomcat8x/webapps/essentials.war] has finished in [6,075] ms
+19-Nov-2018 13:42:05.054 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/ahariku/Documents/NextGen/oneHippo/myhippoproject/target/tomcat8x/webapps/site.war]
+19-Nov-2018 13:42:05.057 INFO [localhost-startStop-1] org.apache.catalina.realm.JAASRealm.setUseContextClassLoader Setting useContextClassLoader = true
+19-Nov-2018 13:42:15.162 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/ahariku/Documents/NextGen/oneHippo/myhippoproject/target/tomcat8x/webapps/site.war] has finished in [10,107] ms
+19-Nov-2018 13:42:15.162 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ahariku/Documents/NextGen/oneHippo/myhippoproject/target/tomcat8x/webapps/host-manager]
+19-Nov-2018 13:42:15.193 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ahariku/Documents/NextGen/oneHippo/myhippoproject/target/tomcat8x/webapps/host-manager] has finished in [31] ms
+19-Nov-2018 13:42:15.193 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ahariku/Documents/NextGen/oneHippo/myhippoproject/target/tomcat8x/webapps/manager]
+19-Nov-2018 13:42:15.228 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ahariku/Documents/NextGen/oneHippo/myhippoproject/target/tomcat8x/webapps/manager] has finished in [35] ms
+19-Nov-2018 13:42:15.234 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 13:42:15.251 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 13:42:15.254 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 43722 ms
+19-Nov-2018 13:42:15.743 INFO [http-nio-8080-exec-2] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /dynamic
